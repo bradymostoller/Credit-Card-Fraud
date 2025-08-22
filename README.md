@@ -42,3 +42,11 @@ A full-stack web application for detecting credit card fraud in real-time, combi
 1. Clone the repository:  
 ```bash
 git clone https://github.com/<your-username>/ML-Credit-Card-Fraud.git
+```
+2.Backend Setup
+cd finance-2
+./mvnw spring-boot:run
+3. Frontend Setup
+cd anomaly-service/frontend
+npm install
+npm start
